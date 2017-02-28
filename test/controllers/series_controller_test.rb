@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class MainControllerTest < ActionController::TestCase
+class SeriesControllerTest < ActionController::TestCase
   test "should get home" do
     get :home
     assert_response :success
@@ -11,13 +11,8 @@ class MainControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get hosts" do
-    get :hosts
-    assert_response :success
-  end
-
-  test "should get episodes" do
-    get :episodes
+  test "should get host" do
+    get :host
     assert_response :success
   end
 

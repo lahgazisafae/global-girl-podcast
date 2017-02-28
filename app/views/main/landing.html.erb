@@ -1,18 +1,23 @@
-<h1>Main#landing</h1>
-<p>Find me in app/views/main/landing.html.erb</p>
+<h1>GLOBAL GIRL SQUAD PODCAST</h1>
 <head>
-    
-    
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel= "stylesheet" href = "app/assets/stylesheets/custom.scss">    
 </head>
 
 <body>
     
-    <div class = "row">
-        <div class = ".col-sm-6"><%= image_tag("the_series.png") %></div>
-        <div class = ".col-sm-6"><%= image_tag("main.png") %></div>
-        
-        
+    
+    <div class="row">
+        <div class="col-md-6">
+            <%= image_tag("main.png", :class => "img-responsive") %>
+        </div>
+        <div class="col-md-6">
+            <%= image_tag("the_series.png", :class => "img-responsive") %>
+       </div>
     </div>
+
     
     
 </body>

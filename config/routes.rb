@@ -1,7 +1,39 @@
 Rails.application.routes.draw do
+  get 'home/landing'
+
+  get 'landing/landing'
+
+  get 'series/home'
+
+  get 'series/about'
+
+  get 'series/host'
+
+  get 'series/contact'
+
+  get 'main/home'
+
+  get 'main/about'
+
+  get 'main/hosts'
+
+  get 'main/episodes'
+
+  get 'main/contact'
+
+  get 'home/home'
+
+  get 'home/about'
+
+  get 'home/hosts'
+
+  get 'home/episodes'
+
+  get 'home/contact'
+
   get 'main/landing'
   
-  root "main#landing"
+  root "home#home"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

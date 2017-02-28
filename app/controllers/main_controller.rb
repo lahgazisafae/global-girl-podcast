@@ -1,4 +1,16 @@
 class MainController < ApplicationController
-  def landing
+  def home
+  end
+
+  def about
+  end
+
+  def hosts
+  end
+
+  def episodes
+  end
+
+  def contact
   end
 end
