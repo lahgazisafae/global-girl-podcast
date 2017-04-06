@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
   get 'main/landing'
   
-  root "home#home"
+  root "main#home"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
